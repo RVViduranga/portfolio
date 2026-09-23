@@ -18,12 +18,19 @@ export interface NavItem {
   label: string;
 }
 
-// Explicit URL first, then Vercel's production domain (set automatically on Vercel builds).
+function toAbsoluteUrl(value: string | undefined): string | undefined {
+  const trimmed = value?.trim().replace(/\/+$/, "");
+  if (!trimmed) return undefined;
+  const withProtocol = /^https?:\/\//.test(trimmed) ? trimmed : `https://${trimmed}`;
+  return URL.canParse(withProtocol) ? withProtocol : undefined;
+}
+
+// Explicit URL first, then Vercel's production domain (set automatically on
+// Vercel builds). Blank or invalid values are skipped.
 export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : "http://localhost:3000");
+  toAbsoluteUrl(process.env.NEXT_PUBLIC_SITE_URL) ??
+  toAbsoluteUrl(process.env.VERCEL_PROJECT_PRODUCTION_URL) ??
+  "http://localhost:3000";
 
 export const profile = {
   name: "Rukshan Viduranga",
