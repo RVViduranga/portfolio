@@ -15,12 +15,12 @@ export interface Certification {
 export const education: EducationItem[] = [
   {
     kind: "degree",
-    title: "BSc Engineering (Hons) — Electrical and Electronic Engineering",
+    title: "BSc Engineering (Hons) in Electrical and Electronic Engineering",
     institution: "University of Peradeniya",
   },
   {
     kind: "training",
-    title: "Software Engineering — Direct Entry Program (DEP)",
+    title: "Software Engineering Direct Entry Program (DEP)",
     institution: "Institute of Software Engineering (IJSE)",
     description: "Specialised in software development with Java and Spring Boot.",
   },
@@ -34,8 +34,8 @@ export const education: EducationItem[] = [
 ];
 
 export const certifications: Certification[] = [
-  { title: "React — The Complete Guide (incl. Next.js, Redux)", issuer: "Udemy" },
-  { title: "React, Node.js, Express & MongoDB — The MERN Fullstack Guide", issuer: "Udemy" },
+  { title: "React - The Complete Guide (incl. Next.js, Redux)", issuer: "Udemy" },
+  { title: "React, Node.js, Express & MongoDB - The MERN Fullstack Guide", issuer: "Udemy" },
   {
     title: "Java Programming: Solving Problems with Software",
     issuer: "Duke University (Coursera)",

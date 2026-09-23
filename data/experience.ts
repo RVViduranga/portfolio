@@ -20,7 +20,7 @@ export const experience: Experience[] = [
     period: { start: "Feb 2026", end: "Present" },
     current: true,
     summary:
-      "Developing and maintaining full-stack web applications within an Agile/Scrum team — taking part in sprint planning, stand-ups and retrospectives.",
+      "Developing and maintaining full-stack web applications within an Agile/Scrum team, taking part in sprint planning, stand-ups and retrospectives.",
     highlights: [
       "Build service-oriented REST APIs, authentication flows and recruiter/candidate management features with React, TypeScript, Node.js, Express and MongoDB.",
       "Split functionality into independently deployable services where appropriate.",

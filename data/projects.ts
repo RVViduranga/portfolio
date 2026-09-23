@@ -56,7 +56,7 @@ export const projects: Project[] = [
     title: "JobCenter",
     category: "Full-stack job portal",
     description:
-      "A Sri Lankan job portal that connects candidates and companies — a recruitment platform with separate experiences for job seekers, employers and admins. I work on it as a full-stack engineer on the Efito Solutions team, and have done since my internship.",
+      "A Sri Lankan job portal that connects candidates and companies. It is a recruitment platform with separate experiences for job seekers, employers and admins. I work on it as a full-stack engineer on the Efito Solutions team, and have done since my internship.",
     organization: "Efito Solutions (Pvt) Ltd",
     contributions: [
       "Implement frontend and backend modules with React, TypeScript, Node.js, Express and MongoDB",
@@ -81,7 +81,7 @@ export const projects: Project[] = [
       "GitHub Actions",
     ],
     features: [
-      "Three roles — job seekers, employers and admins — with role-based dashboards",
+      "Three roles (job seekers, employers and admins) with role-based dashboards",
       "Searchable job and company browsing with filters",
       "Saved jobs and application tracking",
       "JWT authentication and Google OAuth",

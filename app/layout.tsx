@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title,
   description: profile.seoDescription,
-  applicationName: `${profile.name} — Portfolio`,
+  applicationName: `${profile.name} Portfolio`,
   authors: [{ name: profile.name }],
   creator: profile.name,
   keywords: [

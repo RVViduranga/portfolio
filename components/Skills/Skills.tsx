@@ -29,7 +29,7 @@ export function Skills() {
       id="skills"
       eyebrow="Skills"
       title="Technologies I work with."
-      description="Grouped by where they sit in the stack — from the languages I write to the way I ship software."
+      description="Grouped by where they sit in the stack, from the languages I write to the way I ship software."
     >
       <Reveal>
         <ul className="divide-y divide-line overflow-hidden rounded-xl border border-line bg-surface/50">

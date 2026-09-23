@@ -37,7 +37,7 @@ export function ProjectPreview({ project, sizes, className }: ProjectPreviewProp
   return (
     <div
       role="img"
-      aria-label={`${project.title} preview placeholder — screenshot not yet added`}
+      aria-label={`${project.title} preview placeholder, screenshot not yet added`}
       className={cn(frame, "grid place-items-center")}
     >
       <div aria-hidden="true" className="hero-grid absolute inset-0 opacity-60" />

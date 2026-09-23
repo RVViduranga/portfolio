@@ -10,11 +10,11 @@ const facts = [
     term: "Current role",
     detail: `${profile.currentRole.title}, ${profile.currentRole.company}`,
   },
-  { term: "Focus", detail: "Full-stack web development — frontend, backend and APIs" },
+  { term: "Focus", detail: "Full-stack web development: frontend, backend and APIs" },
   { term: "Education", detail: "BSc Engineering (EEE), University of Peradeniya" },
-  { term: "Training", detail: "Software Engineering DEP, IJSE — Java & Spring Boot" },
+  { term: "Training", detail: "Software Engineering DEP at IJSE (Java & Spring Boot)" },
   { term: "Way of working", detail: "Agile/Scrum, TDD, CI/CD with GitHub Actions" },
-  { term: "Also learning", detail: "AI/ML — Certified AI & ML Engineer programme, IJSE" },
+  { term: "Also learning", detail: "AI/ML through the Certified AI & ML Engineer programme at IJSE" },
 ];
 
 export function About() {
@@ -40,7 +40,7 @@ export function About() {
         <Reveal delay={0.05} className="space-y-5 text-base leading-relaxed text-pretty text-muted sm:text-lg">
           <p>
             I&apos;m a software engineer at Efito Solutions, where I develop and maintain full-stack web
-            applications — building interfaces with <span className="text-ink">React</span> and{" "}
+            applications. I build interfaces with <span className="text-ink">React</span> and{" "}
             <span className="text-ink">TypeScript</span>, and REST APIs, authentication flows and services
             with <span className="text-ink">Node.js</span>, <span className="text-ink">Express.js</span> and{" "}
             <span className="text-ink">MongoDB</span>.
@@ -53,8 +53,8 @@ export function About() {
           </p>
           <p>
             I work in Agile/Scrum teams, write tests with a TDD approach, and care about readable code and
-            sensible architecture. Alongside this I&apos;m studying AI and machine learning — NLP, LLMs and MLOps
-            — as an additional area of interest.
+            sensible architecture. Alongside this I&apos;m studying AI and machine learning (NLP, LLMs and MLOps)
+            as an additional area of interest.
           </p>
         </Reveal>
 
